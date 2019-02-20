@@ -115,7 +115,7 @@
     "dependent_repositories": [{
             "path_to_root": "_themes",
             "url": "https://github.com/Microsoft/templates.docs.msft",
-            "branch": "master",
+            "branch": "qinezh_parameters",
             "branch_mapping": {}
         },
         {

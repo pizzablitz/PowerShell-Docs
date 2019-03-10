@@ -141,11 +141,12 @@ if($firstDayOfWeek)
     $dateTimeFormat.FirstDayOfWeek = $firstDayOfWeek
 }
 
-$currentDay = $start
 
 ## Process the requested months.
 while($start -le $end)
 {
+    $currentDay = $start
+
     ## Return to an earlier point in the function if the first day of the month
     ## is in the middle of the week.
     while($currentDay.DayOfWeek -ne $dateTimeFormat.FirstDayOfWeek)
